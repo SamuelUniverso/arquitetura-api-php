@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Universum\\": "src/"
+        }
+    },
+    "files": [
+        "config.php"
+    ],
+    "require": {
+        "kreait/firebase-php": "^6.9",
+        "firebase/php-jwt": "^6.4",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
