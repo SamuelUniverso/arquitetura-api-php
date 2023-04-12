@@ -2,11 +2,6 @@
 
 namespace Universum\Controller\Api;
 
-use InvalidArgumentException;
-use Throwable;
-use Universum\Model\Pessoa;
-use Universum\Service\PessoaService;
-
 /**
  * @author Samuel Oberger Rockenbach <samuel.rockenbach@universo.univates.br>
  * @since march-2023
