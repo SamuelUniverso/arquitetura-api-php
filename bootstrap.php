@@ -1,19 +1,10 @@
 <?php
 
-use Dotenv\Dotenv;
-use Firebase\JWT\JWT;
-use Firebase\JWT\Key;
 use Universum\Router\Router;
 use Universum\Router\Routes;
-use Universum\Utils\StringBuilder;
 use Universum\Utils\StringUtils;
 
 require "vendor/autoload.php";
-
-/// ENVIRONMENT SETUP
-
-$dotenv = Dotenv::createImmutable(__DIR__);
-$dotenv->load();
 
 /// ROUTE CONTROL
 
