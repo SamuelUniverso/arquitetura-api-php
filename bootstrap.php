@@ -50,8 +50,7 @@ if($request[1] == "api")
         $data = call_user_func([new $controller, $method], $param[0], $param[1] ?? $input);
 
         http_response_code(200);
-        if($data)
-        {
+        if($data) {
             exit(
                 json_encode($data)
             );
