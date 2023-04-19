@@ -44,7 +44,7 @@ if($request[1] == "api")
         }
 
         /**
-         * If request has body (aka. POST, PUT) send body as parameter
+         * If request has body (e.g. POST, PUT) set body as parameter
          */
         $input = file_get_contents('php://input');
         $data = call_user_func([new $controller, $method], $param[0], $param[1] ?? $input);
